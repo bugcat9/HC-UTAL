@@ -48,7 +48,7 @@ The localization visualization results are as follows:
 <img src="img/localization.jpg">
 
 The clustering visualization results are as follows:
-<img src="img/cluster.jpg">
+<img src="img/cluster.jpg" width=80%>
 
 
 
