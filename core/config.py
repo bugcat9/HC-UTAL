@@ -6,7 +6,7 @@ import json
 cfg = edict()
 
 cfg.GPU_ID = '0'
-cfg.LR = '[0.0001]*5000'
+cfg.LR = '[0.0001]*3000'
 cfg.NUM_ITERS = len(eval(cfg.LR))
 cfg.NUM_CLASSES = 20
 cfg.MODAL = 'all'
@@ -15,9 +15,8 @@ cfg.BATCH_SIZE = 64
 cfg.DATA_PATH = './data/THUMOS14'
 cfg.NUM_WORKERS = 8
 cfg.LAMBDA = 0.01
-# cfg.R_noboundary = 
-cfg.R_NOBOUNDARY = 5
-cfg.R_BOUNDARY = 20
+cfg.R_EASY = 5
+cfg.R_HARD = 20
 cfg.m = 3
 cfg.M = 6
 cfg.TEST_FREQ = 5
@@ -58,3 +57,4 @@ cfg.cluster_temperature = 0.4
 # cfg.cluster_temperature = 0.9 0.4
 cfg.steps = 12000
 cfg.bs = 8
+cfg.num_classes = 15

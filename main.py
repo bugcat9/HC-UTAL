@@ -2,7 +2,7 @@
 from terminaltables import AsciiTable
 from eval.eval_detection import ANETdetection
 from torch.utils.tensorboard import SummaryWriter
-from core.dataset import NpyFeature, pairDataset
+from core.dataset import NpyFeature
 from core.utils import AverageMeter
 from core.config import cfg
 from core.loss import  TotalLoss
